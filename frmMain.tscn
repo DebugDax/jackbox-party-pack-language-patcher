@@ -1,0 +1,752 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://resources/pp1.png" type="Texture" id=1]
+[ext_resource path="res://resources/line.png" type="Texture" id=2]
+[ext_resource path="res://resources/pp4.png" type="Texture" id=3]
+[ext_resource path="res://resources/pp7.png" type="Texture" id=4]
+[ext_resource path="res://resources/pp8.png" type="Texture" id=5]
+[ext_resource path="res://resources/pp6.png" type="Texture" id=6]
+[ext_resource path="res://resources/pp2.png" type="Texture" id=7]
+[ext_resource path="res://resources/pp5.png" type="Texture" id=8]
+[ext_resource path="res://resources/pp3.png" type="Texture" id=9]
+[ext_resource path="res://resources/whatthedub.png" type="Texture" id=10]
+[ext_resource path="res://resources/quiplash2.png" type="Texture" id=11]
+[ext_resource path="res://resources/quiplash.png" type="Texture" id=12]
+[ext_resource path="res://resources/useyourwords.jpg" type="Texture" id=13]
+[ext_resource path="res://conMain.gd" type="Script" id=14]
+[ext_resource path="res://conSetup.tscn" type="PackedScene" id=15]
+[ext_resource path="res://resources/drawful2.png" type="Texture" id=16]
+[ext_resource path="res://resources/fibbagexl.png" type="Texture" id=17]
+[ext_resource path="res://resources/splash.png" type="Texture" id=18]
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1.0
+margin_bottom = -25.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HSplitContainer" type="HSplitContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 40.0
+margin_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="conLoading" type="Control" parent="HSplitContainer"]
+visible = false
+margin_right = 935.0
+margin_bottom = 590.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="HSplitContainer/conLoading"]
+margin_left = -125.0
+margin_top = -4.0
+margin_right = 1037.0
+margin_bottom = 576.0
+texture = ExtResource( 18 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblLoading" type="Label" parent="HSplitContainer/conLoading"]
+margin_left = 336.0
+margin_top = 358.0
+margin_right = 588.0
+margin_bottom = 439.0
+text = "Loading ..."
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblDisclaimer" type="Label" parent="HSplitContainer/conLoading"]
+margin_left = 155.0
+margin_top = 36.0
+margin_right = 757.0
+margin_bottom = 180.0
+align = 1
+valign = 1
+autowrap = true
+
+[node name="lblCredit" type="Label" parent="HSplitContainer/conLoading"]
+margin_left = 357.0
+margin_top = 514.0
+margin_right = 575.0
+margin_bottom = 563.0
+text = "Brought to you by
+Foolish Pixel // @DebugDax"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="conLoad" type="Control" parent="HSplitContainer"]
+visible = false
+margin_left = 12.0
+margin_right = 935.0
+margin_bottom = 590.0
+
+[node name="Label" type="Label" parent="HSplitContainer/conLoad"]
+margin_left = 415.0
+margin_top = 262.0
+margin_right = 667.0
+margin_bottom = 322.0
+text = "Loading ..."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="conMain" type="Control" parent="HSplitContainer"]
+visible = false
+margin_right = 935.0
+margin_bottom = 590.0
+script = ExtResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblInstalledLeft" type="Label" parent="HSplitContainer/conMain"]
+margin_left = 108.0
+margin_top = 15.0
+margin_right = 220.0
+margin_bottom = 35.0
+text = "Installed Version"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblInstalledRight" type="Label" parent="HSplitContainer/conMain"]
+margin_left = 558.0
+margin_top = 15.0
+margin_right = 670.0
+margin_bottom = 35.0
+text = "Installed Version"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="cmdRunSetup" type="Button" parent="HSplitContainer/conMain"]
+margin_left = 730.0
+margin_top = 501.0
+margin_right = 877.0
+margin_bottom = 549.0
+rect_pivot_offset = Vector2( 47, 29 )
+shortcut_in_tooltip = false
+text = "Run Setup"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp1" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 44.0
+margin_right = 400.0
+margin_bottom = 96.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp1"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 1 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="cmdpp1" type="Button" parent="HSplitContainer/conMain/pp1"]
+margin_left = 250.0
+margin_top = 5.0
+margin_right = 395.0
+margin_bottom = 52.0
+rect_pivot_offset = Vector2( 47, 29 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblpp1" type="RichTextLabel" parent="HSplitContainer/conMain/pp1"]
+margin_left = 91.0
+margin_top = 5.0
+margin_right = 236.0
+margin_bottom = 50.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp2" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 109.0
+margin_right = 400.0
+margin_bottom = 161.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp2"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 7 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="lblpp2" type="RichTextLabel" parent="HSplitContainer/conMain/pp2"]
+margin_left = 92.0
+margin_top = 3.0
+margin_right = 237.0
+margin_bottom = 48.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdpp2" type="Button" parent="HSplitContainer/conMain/pp2"]
+margin_left = 251.0
+margin_top = 3.0
+margin_right = 396.0
+margin_bottom = 50.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp3" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 174.0
+margin_right = 400.0
+margin_bottom = 226.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblpp3" type="RichTextLabel" parent="HSplitContainer/conMain/pp3"]
+margin_left = 92.0
+margin_top = 4.0
+margin_right = 237.0
+margin_bottom = 49.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp3"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 9 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="cmdpp3" type="Button" parent="HSplitContainer/conMain/pp3"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp4" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 240.0
+margin_right = 400.0
+margin_bottom = 292.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblpp4" type="RichTextLabel" parent="HSplitContainer/conMain/pp4"]
+margin_left = 92.0
+margin_top = 9.0
+margin_right = 237.0
+margin_bottom = 54.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp4"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 3 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="cmdpp4" type="Button" parent="HSplitContainer/conMain/pp4"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp5" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 305.0
+margin_right = 400.0
+margin_bottom = 357.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblpp5" type="RichTextLabel" parent="HSplitContainer/conMain/pp5"]
+margin_left = 92.0
+margin_top = 5.0
+margin_right = 237.0
+margin_bottom = 50.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp5"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 8 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="cmdpp5" type="Button" parent="HSplitContainer/conMain/pp5"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp6" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 371.0
+margin_right = 400.0
+margin_bottom = 423.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblpp6" type="RichTextLabel" parent="HSplitContainer/conMain/pp6"]
+margin_left = 92.0
+margin_top = 2.0
+margin_right = 237.0
+margin_bottom = 47.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp6"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 6 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="cmdpp6" type="Button" parent="HSplitContainer/conMain/pp6"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp7" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 436.0
+margin_right = 400.0
+margin_bottom = 488.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp7"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 4 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="lblpp7" type="RichTextLabel" parent="HSplitContainer/conMain/pp7"]
+margin_left = 92.0
+margin_top = 2.0
+margin_right = 237.0
+margin_bottom = 47.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdpp7" type="Button" parent="HSplitContainer/conMain/pp7"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pp8" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 19.0
+margin_top = 501.0
+margin_right = 400.0
+margin_bottom = 553.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/pp8"]
+position = Vector2( 190, 146 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 5 )
+offset = Vector2( -1646.67, -1200 )
+
+[node name="lblpp8" type="RichTextLabel" parent="HSplitContainer/conMain/pp8"]
+margin_left = 92.0
+margin_top = 2.0
+margin_right = 237.0
+margin_bottom = 47.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmdpp8" type="Button" parent="HSplitContainer/conMain/pp8"]
+margin_left = 251.0
+margin_top = 2.0
+margin_right = 396.0
+margin_bottom = 49.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="quiplash" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 478.0
+margin_top = 75.0
+margin_right = 859.0
+margin_bottom = 127.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblppq" type="RichTextLabel" parent="HSplitContainer/conMain/quiplash"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/quiplash"]
+position = Vector2( 30.0153, 0.547684 )
+scale = Vector2( 0.292089, 0.292089 )
+texture = ExtResource( 12 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmdppquip" type="Button" parent="HSplitContainer/conMain/quiplash"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="fibbagexl" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 479.0
+margin_top = 207.0
+margin_right = 860.0
+margin_bottom = 259.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblfxl" type="RichTextLabel" parent="HSplitContainer/conMain/fibbagexl"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/fibbagexl"]
+position = Vector2( 28.0493, 0.175415 )
+scale = Vector2( 0.106667, 0.110166 )
+texture = ExtResource( 17 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmdfxl" type="Button" parent="HSplitContainer/conMain/fibbagexl"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="quiplash2" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 479.0
+margin_top = 139.0
+margin_right = 860.0
+margin_bottom = 191.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblppq2" type="RichTextLabel" parent="HSplitContainer/conMain/quiplash2"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/quiplash2"]
+position = Vector2( 29, 2 )
+scale = Vector2( 0.215366, 0.218753 )
+texture = ExtResource( 11 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmdppquip2" type="Button" parent="HSplitContainer/conMain/quiplash2"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="drawful2" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 479.0
+margin_top = 275.0
+margin_right = 860.0
+margin_bottom = 327.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lbld2" type="RichTextLabel" parent="HSplitContainer/conMain/drawful2"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/drawful2"]
+position = Vector2( 28.9998, -2 )
+scale = Vector2( 0.10597, 0.110061 )
+texture = ExtResource( 16 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmdd2" type="Button" parent="HSplitContainer/conMain/drawful2"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="useyourwords" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 480.0
+margin_top = 341.0
+margin_right = 861.0
+margin_bottom = 393.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lbluyw" type="RichTextLabel" parent="HSplitContainer/conMain/useyourwords"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/useyourwords"]
+position = Vector2( 28.9998, -1 )
+scale = Vector2( 0.112174, 0.115953 )
+texture = ExtResource( 13 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmduyw" type="Button" parent="HSplitContainer/conMain/useyourwords"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="whatthedub" type="Control" parent="HSplitContainer/conMain"]
+margin_left = 480.0
+margin_top = 409.0
+margin_right = 861.0
+margin_bottom = 461.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblwtd" type="RichTextLabel" parent="HSplitContainer/conMain/whatthedub"]
+margin_left = 80.0
+margin_top = -26.0
+margin_right = 245.0
+margin_bottom = 19.0
+bbcode_enabled = true
+text = "---"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pp1" type="Sprite" parent="HSplitContainer/conMain/whatthedub"]
+position = Vector2( 30, 3 )
+scale = Vector2( 0.208446, 0.210525 )
+texture = ExtResource( 10 )
+offset = Vector2( -3.33704, -12.0071 )
+
+[node name="cmdwtd" type="Button" parent="HSplitContainer/conMain/whatthedub"]
+margin_left = 252.0
+margin_top = -31.0
+margin_right = 397.0
+margin_bottom = 16.0
+rect_pivot_offset = Vector2( 14, 200 )
+shortcut_in_tooltip = false
+text = "Install Patch"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sepLine" type="Sprite" parent="HSplitContainer/conMain"]
+position = Vector2( 441.75, 294.127 )
+scale = Vector2( 0.25, 1.46851 )
+texture = ExtResource( 2 )
+
+[node name="lblStatus" type="Label" parent="HSplitContainer/conMain"]
+margin_left = 484.0
+margin_top = 461.0
+margin_right = 876.0
+margin_bottom = 496.0
+text = "..."
+valign = 2
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="HSplitContainer/conMain"]
+visible = false
+margin_left = 482.0
+margin_top = 503.0
+margin_right = 696.0
+margin_bottom = 537.0
+rounded = true
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HTTPRequest" type="HTTPRequest" parent="HSplitContainer/conMain"]
+
+[node name="conSetup" parent="HSplitContainer" instance=ExtResource( 15 )]
+visible = false
+margin_left = 12.0
+margin_right = 935.0
+margin_bottom = 590.0
+
+[connection signal="pressed" from="HSplitContainer/conMain/cmdRunSetup" to="HSplitContainer/conMain" method="_on_cmdRunSetup_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp1/cmdpp1" to="HSplitContainer/conMain" method="_on_cmdpp1_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp2/cmdpp2" to="HSplitContainer/conMain" method="_on_cmdpp2_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp3/cmdpp3" to="HSplitContainer/conMain" method="_on_cmdpp3_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp4/cmdpp4" to="HSplitContainer/conMain" method="_on_cmdpp4_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp5/cmdpp5" to="HSplitContainer/conMain" method="_on_cmdpp5_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp6/cmdpp6" to="HSplitContainer/conMain" method="_on_cmdpp6_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp7/cmdpp7" to="HSplitContainer/conMain" method="_on_cmdpp7_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/pp8/cmdpp8" to="HSplitContainer/conMain" method="_on_cmdpp8_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/quiplash/cmdppquip" to="HSplitContainer/conMain" method="_on_cmdppquip_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/fibbagexl/cmdfxl" to="HSplitContainer/conMain" method="_on_cmdfxl_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/quiplash2/cmdppquip2" to="HSplitContainer/conMain" method="_on_cmdppquip2_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/drawful2/cmdd2" to="HSplitContainer/conMain" method="_on_cmdd2_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/useyourwords/cmduyw" to="HSplitContainer/conMain" method="_on_cmduyw_pressed"]
+[connection signal="pressed" from="HSplitContainer/conMain/whatthedub/cmdwtd" to="HSplitContainer/conMain" method="_on_cmdwtd_pressed"]
+[connection signal="request_completed" from="HSplitContainer/conMain/HTTPRequest" to="HSplitContainer/conMain" method="_on_HTTPRequest_request_completed"]

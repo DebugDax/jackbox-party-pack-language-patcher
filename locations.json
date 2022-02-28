@@ -1,0 +1,72 @@
+{
+    "deutsch": {
+        "version": {
+            "pp1": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-1-German/main/config.jet",
+            "pp2": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-2-German/main/config.jet",
+            "pp3": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-3-German/main/config.jet",
+            "pp4": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-4-German/main/config.jet",
+            "pp5": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-5-German/main/config.jet",
+            "pp6": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-6-German/main/config.jet",
+            "pp7": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-7-German/main/config.jet",
+            "pp8": "https://raw.githubusercontent.com/Nesjob/The-Jackbox-Party-Pack-8-German/main/config.jet",
+            "qp1": "https://raw.githubusercontent.com/Nesjob/Quiplash-German/main/jbg.config.jet",
+            "qp2": "",
+            "dr2": "",
+            "fxl": "",
+            "uyw": "",
+            "wtd": ""
+        },
+        "patch-locale": "DE",
+        "patch": {
+            "pp1": "https://github.com/Nesjob/The-Jackbox-Party-Pack-1-German/releases/latest/download/The-Jackbox-Party-Pack-1-German.zip",
+            "pp2": "https://github.com/Nesjob/The-Jackbox-Party-Pack-2-German/releases/latest/download/The-Jackbox-Party-Pack-2-German.zip",
+            "pp3": "https://github.com/Nesjob/The-Jackbox-Party-Pack-3-German/releases/latest/download/The-Jackbox-Party-Pack-3-German.zip",
+            "pp4": "https://github.com/Nesjob/The-Jackbox-Party-Pack-4-German/releases/latest/download/The-Jackbox-Party-Pack-4-German.zip",
+            "pp5": "https://github.com/Nesjob/The-Jackbox-Party-Pack-5-German/releases/latest/download/The-Jackbox-Party-Pack-5-German.zip",
+            "pp6": "https://github.com/Nesjob/The-Jackbox-Party-Pack-6-German/releases/latest/download/The-Jackbox-Party-Pack-6-German.zip",
+            "pp7": "https://github.com/Nesjob/The-Jackbox-Party-Pack-7-German/releases/latest/download/The-Jackbox-Party-Pack-7-German.zip",
+            "pp8": "https://github.com/Nesjob/The-Jackbox-Party-Pack-8-German/releases/latest/download/The-Jackbox-Party-Pack-8-German.zip",
+            "qp1": "https://github.com/Nesjob/Quiplash-German/releases/latest/download/Quiplash-German.zip",
+            "qp2": "",
+            "dr2": "",
+            "fxl": "",
+            "uyw": "",
+            "wtd": ""
+        }
+    },
+    "español": {
+        "version": {
+            "pp1": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
+            "pp2": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/main/Main/config.jet",
+            "pp3": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/main/Main/config.jet",
+            "pp4": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/main/Main/config.jet",
+            "pp5": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/main/Main/config.jet",
+            "pp6": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/main/Main/config.jet",
+            "pp7": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/main/Main/config.jet",
+            "pp8": "https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/main/Main/config.jet",
+            "qp1": "https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/main/Main/jbg.config.jet",
+            "qp2": "https://raw.githubusercontent.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/main/Main/jbg.config.jet",
+            "dr2": "https://raw.githubusercontent.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/main/Main/jbg.config.jet",
+            "fxl": "https://raw.githubusercontent.com/AkiraArtuhaxis/Fibbage-XL-Spanish/main/Main/jbg.config.jet",
+            "uyw": "https://raw.githubusercontent.com/AkiraArtuhaxis/Use-Your-Words-Spanish/main/Main/version.dat",
+            "wtd": "https://raw.githubusercontent.com/AkiraArtuhaxis/What-The-Dub-Spanish/main/Main/version.dat"
+        },
+        "patch-locale": "ES",
+        "patch": {
+            "pp1": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
+            "pp2": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-2-Spanish/releases/latest/download/JPP2-ES.zip",
+            "pp3": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-3-Spanish/releases/latest/download/JPP3-ES.zip",
+            "pp4": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-4-Spanish/releases/latest/download/JPP4-ES.zip",
+            "pp5": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-5-Spanish/releases/latest/download/JPP5-ES.zip",
+            "pp6": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-6-Spanish/releases/latest/download/JPP6-ES.zip",
+            "pp7": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-7-Spanish/releases/latest/download/JPP7-ES.zip",
+            "pp8": "https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-8-Spanish/releases/latest/download/JPP8-ES.zip",
+            "qp1": "https://github.com/AkiraArtuhaxis/Quiplash-Quip-Pack-1-Spanish/releases/latest/download/QUIP-ES.zip",
+            "qp2": "https://github.com/AkiraArtuhaxis/Quiplash-2-InterLASHional-Latin-American-Spanish/releases/latest/Q2INT-LAT.zip",
+            "dr2": "https://github.com/AkiraArtuhaxis/Drawful-2-Latin-American-Spanish/releases/latest/DF2-LAT.zip",
+            "fxl": "https://github.com/AkiraArtuhaxis/Fibbage-XL-Spanish/releases/latest/download/FBXL-ES.zip",
+            "uyw": "https://github.com/AkiraArtuhaxis/Use-Your-Words-Spanish/releases/latest/download/UYW-ES.zip",
+            "wtd": "https://github.com/AkiraArtuhaxis/What-The-Dub-Spanish/releases/latest/download/WTD-ES.zip"
+        }
+    }
+}

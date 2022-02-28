@@ -1,0 +1,44 @@
+{
+    "APP_NAME": "Jackbox Party Pack Patcher+",
+    "MAIN_INSTALLED_VERSION": "Installed Version",
+    "MAIN_INSTALL_PATCH": "Install Patch",
+    "MAIN_UPDATE_AVAILABLE": "Update",
+    "MAIN_UPDATE_PATCH": "Update Patch",
+    "MAIN_REMOVE_PATCH": "Remove Patch",
+    "MAIN_PATCH_UPDATE": "Available",
+    "MAIN_NO_PATCH_FOR_GAME": "No Patch Available",
+    "MAIN_GAME_MISSING": "Game Not Found",
+    "MAIN_GAME_PATCH_UPTODATE": "Up To Date",
+    "MAIN_RUN_SETUP": "Run Setup",
+    "SETUP_HEADER": "Welcome to Jackbox Party Pack Patcher+ - The All-in-one Localization Patcher.\nPlease select the executable for each game you have installed below then Save to proceed.\nGreen titles mean it's a valid path.",
+    
+    "MAIN_DOWNLOAD_CONNECTING": "Connecting to Server...",
+    "MAIN_DOWNLOAD_CONNECTED": "Server Connected!",
+    "MAIN_DOWNLOAD_DOWNLOADING": "Downloading...",
+    "MAIN_DOWNLOAD_EXTRACTING": "Extracting...",
+    "MAIN_DOWNLOAD_INSTALLED": "Installed {} Patch",
+    "MAIN_DOWNLOAD_CONNECTFAIL": "Can't connect to the server.",
+    "MAIN_DOWNLOAD_BADURL": "Failed! Bad URL",
+    "MAIN_DOWNLOAD_ERROR": "Unknown Error",
+    
+    
+    "SETUP_JACKBOX_PACK_LOCATIONS": "Jackbox Pack Locations",
+    "SETUP_STAND_ALONE_GAMES": "Stand Alone Games",
+    "SETUP_LANGUAGE": "Language",
+    "SETUP_BROWSE": "Browse",
+    "SETUP_ATTEMPT_AUTO_DETECT": "Attempt Auto Detect",
+    "SETUP_SAVE_CONTINUE": "Save & Continue",
+
+    "SETUP_TEXT_SCANNING": "Scanning...",
+    "SETUP_TEXT_DONESCANNING": "Done Scanning!",
+    "SETUP_TEXT_FOUND": "Found the following:",
+    
+    "APP_LOADING": "Loading...",
+    "APP_ERROR_MISSING_LOCATIONS": "locations.json is missing",
+    "APP_ERROR_INVALID_LANGUAGE": "Invalid Language",
+    
+    "APP_DISCLAIMER": "This software is fan made and not supported by Jackbox Games, Smiling Buddha Games, or Wide Right Interactive. Do not contact them for assistance related to this software. This is free software, if you paid for it then you were scammed. This software comes with no warranty.",    
+    "APP_LANG_THANKS": "This translation was brought to you by Person, Person, and Person.",
+    "APP_LANG_MESSAGE": "Insert your special message here like telling people to go to your discord, twitter, website, etc."
+    
+}

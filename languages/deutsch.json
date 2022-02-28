@@ -1,0 +1,44 @@
+{
+    "APP_NAME": "Jackbox Party Pack Patcher+",
+    "MAIN_INSTALLED_VERSION": "Installierte Version",
+    "MAIN_INSTALL_PATCH": "Patch installieren",
+    "MAIN_UPDATE_AVAILABLE": "Update verfügbar",
+    "MAIN_UPDATE_PATCH": "Patch updaten",
+    "MAIN_REMOVE_PATCH": "Patch entfernen",
+    "MAIN_PATCH_UPDATE": "Verfügbar",
+    "MAIN_NO_PATCH_FOR_GAME": "Kein Patch verfügbar",
+    "MAIN_GAME_MISSING": "Spiel nicht gefunden",
+    "MAIN_GAME_PATCH_UPTODATE": "Aktuell",
+    "MAIN_RUN_SETUP": "Setup starten",
+    "SETUP_HEADER": "Willkommen beim Jackbox Party Pack Patcher+ - Patche alle deine Spiele mit einem Klick.\nBitte wähle die Startdatei für jedes deiner Spiele unten aus.\nGrüne Spiele weisen auf einen gültigen Pfad hin.",
+    
+    "MAIN_DOWNLOAD_CONNECTING": "Verbinde mit dem Server...",
+    "MAIN_DOWNLOAD_CONNECTED": "Server verbunden!",
+    "MAIN_DOWNLOAD_DOWNLOADING": "Downloade...",
+    "MAIN_DOWNLOAD_EXTRACTING": "Entpacke...",
+    "MAIN_DOWNLOAD_INSTALLED": "Patch {} wurde installiert",
+    "MAIN_DOWNLOAD_CONNECTFAIL": "Verbindung zum Server fehlgeschlagen.",
+    "MAIN_DOWNLOAD_BADURL": "Ungültige URL",
+    "MAIN_DOWNLOAD_ERROR": "Unbekannter Fehler",
+    
+    
+    "SETUP_JACKBOX_PACK_LOCATIONS": "Jackbox Pack Pfade",
+    "SETUP_STAND_ALONE_GAMES": "Alleinstehende Titel",
+    "SETUP_LANGUAGE": "Sprache",
+    "SETUP_BROWSE": "Durchsuchen",
+    "SETUP_ATTEMPT_AUTO_DETECT": "Automatisch erkennen",
+    "SETUP_SAVE_CONTINUE": "Speichern & Fortfahren",
+
+    "SETUP_TEXT_SCANNING": "Scanne...",
+    "SETUP_TEXT_DONESCANNING": "Fertig!",
+    "SETUP_TEXT_FOUND": "Gefundene Titel:",
+    
+    "APP_LOADING": "Lade...",
+    "APP_ERROR_MISSING_LOCATIONS": "locations.json fehlt",
+    "APP_ERROR_INVALID_LANGUAGE": "Ungültige Sprache",
+    
+    "APP_DISCLAIMER": "Diese Software wurde von Fans entwickelt und wird nicht von Jackbox Games, Smiling Buddha Games oder Wide Right Interactive unterstützt. Kontaktiere sie nicht, wenn du Hilfe für diese Software benötigst. Diese Software ist kostenlos. Wenn du für sie bezahlt hast, wurdest du betrogen. Diese Software wird ohne Garantie geliefert",
+    "APP_LANG_THANKS": "",
+    "APP_LANG_MESSAGE": "Unterstütze die Deutsche Übersetzer-Community unter jackboxpatch.de/patreon"
+    
+}
